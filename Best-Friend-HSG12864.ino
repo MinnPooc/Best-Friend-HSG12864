@@ -2,7 +2,7 @@
 
 // === Adjust these pins for your wiring (ESP32) ===
 // Example: Software SPI
-U8G2_ST7567_OS12864_F_4W_SW_SPI u8g2(U8G2_R0, /*cs=*/5, /*dc=*/2, /*reset=*/4, /*clk=*/18, /*data=*/23);
+U8G2_ST7567_OS12864_F_4W_SW_SPI u8g2(U8G2_R0, /*cs=*/5, /*dc=*/2, /*reset=*/4, /*clk=*/18, /*data=*/10);
 
 // === Frame definitions ===
 #define FRAME_WIDTH 128
